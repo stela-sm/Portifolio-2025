@@ -13,7 +13,7 @@
     <section >
         <div class="container menubar ">
             <div class="logo">
-                <img src="./logo_branca.png" alt="">
+                <img src="./media/logo_branca.png" alt="">
                 <a class="language">
                     <span id="pt" class="disabled">
                         PT
@@ -27,9 +27,9 @@
                 </a>
             </div>
             <div class="navlinks">
-                <a href="#work" class="navlink">WORK</a>
-                <a href="#education" class="navlink">EDUCATION</a>
-                <a href="#cv" class="navlink">CV</a>
+                <a href="#work" id="menu1" class="navlink">WORK</a>
+                <a href="#education" id="menu2" class="navlink">EDUCATION</a>
+                <a href="#cv" id="menu3" class="navlink">CV</a>
             </div>
         </div>
     </section>
@@ -38,13 +38,13 @@
     <section class="about-section">
         <div class="container about ">
             <div class="avatar">
-                <img src="./Group 1.svg" class="avatar-img"alt="">
+                <img src="./media/Group 1.svg" class="avatar-img"alt="">
             </div>
             <div class="text-about">
-                <p class="title">
+                <p class="title" id="title">
                     HELLO, I'M STELA.
                 </p>
-                <p class="text">
+                <p class="text" id="text-about">
                     I'm a beginner developer passionate about solving problems with technology. I aim to collaborate with teams to improve
                     existing solutions and create new ones. When I’m not coding, you’ll find me enjoying coffee, hanging with my cats, and
                     tackling new challenges. Let’s connect and explore what I can bring to the table!
@@ -67,7 +67,7 @@
 
     <section>
         <div class="container skills">
-            <p class="title">
+            <p class="title" id="skills">
                 SKILLS
             </p>
             <div class="skillsDeck">
@@ -224,7 +224,7 @@
             
             <div class="workCard">
                 <span class="workTitle">Melfy - 2025</span>
-                <span class="workText">E-commerce platform tailored for sweet shops, enabling them to sell their products online. Responsible for back-end
+                <span class="workText" id="workText1">E-commerce platform tailored for sweet shops, enabling them to sell their products online. Responsible for back-end
                 development, I implemented a RESTful API using Express.js, featuring JWT authentication, middleware for request
                 handling, password hashing, and image storage via Cloudinary. Utilized Insomnia to test API endpoints and ensure robust
                 functionality.</span>
@@ -350,10 +350,7 @@
                 <h3>HELP DESK INTERN</h3>
                 <h4>Techonub, 05/2025 - today</h4>
                 <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem Ipsum has been the industry's standard dummy text ever
-                    since the 1500s, when an unknown printer took a galley of type and
-                    scrambled it to mak
+                  Provided support to users via phone, chat, and remote access. Diagnosed and resolved software and Windows OS issues, performed system formatting, data backup, and restoration. Configured networks, printers, email accounts, and various applications. Assisted in documenting procedures and managing support tickets.
                 </p>
             </div>
     
@@ -371,19 +368,13 @@
                     <div class="workCard">
                         <span class="workTitle">ETEC </span>
                         <h4>2022 - 2024</h4>
-                        <span class="workText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                            has been the industry's standard
-                            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-                            mak</span>
+                        <span class="workText">Trained in creating and maintaining websites, including logical reasoning, programming, user interface design, databases, and interactive functionalities. Knowledge of digital marketing, user experience, and entrepreneurship applied to the web.</span>
                   
                     </div>
                         <div class="workCard">
                             <span class="workTitle">FATEC </span>
                             <h4>2025 - 2027</h4>
-                            <span class="workText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                has been the industry's standard
-                                dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-                                mak</span>
+                            <span class="workText">Training in software development for Web, Desktop, Mobile, IoT, and Cloud platforms, applying Information Security and Artificial Intelligence concepts. Skilled in agile methodologies, version control, continuous integration, and delivery, focusing on high-quality solutions. Developed innovation, and socially responsible professional conduct.</span>
                     
                         </div>
 
@@ -456,7 +447,7 @@
                         <path d="M11 15v6h1a2 2 0 0 0 2 -2v-2a2 2 0 0 0 -2 -2h-1z" />
                     </svg>
                 
-                    <span class="text"><a href="./stela_cv.pdf" download="stela_cv.pdf">stela_cv.pdf</a></span>
+                    <span class="text"><a href="./media/stela_cv.pdf" download="stela_cv.pdf">stela_cv.pdf</a></span>
                 </div>
             </div>
 
@@ -490,5 +481,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+<script src="./translate/translate.js"></script>
 </body>
 </html>
