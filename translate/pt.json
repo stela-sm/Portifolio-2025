@@ -1,17 +1,22 @@
 {
-
-    "title": "Olá",
+    "title": "OLÁ, EU SOU A STELA.",
     "menu1": "PROJETOS",
     "menu2": "EDUCAÇÃO",
     "menu3": "CV",
-    "text-about": "",
-    "skills": "",
-    "workText1": "",
-    "workText2": "",
-    "workText3": "",
-    "workText4": ""
-
-    
-
-
+    "text-about": "Sou uma desenvolvedora iniciante apaixonada por resolver problemas com tecnologia. Meu objetivo é colaborar com equipes para aprimorar soluções existentes e criar novas. Quando não estou programando, você vai me encontrar tomando um café, brincando com meus gatos e enfrentando novos desafios. Vamos conversar e descobrir o que posso agregar!",
+    "skills": "HABILIDADES",
+    "workText1": "Plataforma de e-commerce voltada para lojas de doces, permitindo que vendam seus produtos online. Responsável pelo desenvolvimento do back-end, implementei uma API RESTful usando Express.js, com autenticação JWT, middleware para tratamento de requisições, criptografia de senhas e armazenamento de imagens via Cloudinary. Utilizei o Insomnia para testar os endpoints da API e garantir uma funcionalidade robusta.",
+    "workText2": "Desenvolvi uma API básica usando PHP e princípios de POO. Adquiri experiência com rotas, tratamento de requisições e respostas, e implementação de autenticação JWT para controle de acesso seguro.",
+    "workText3": "Plataforma de e-commerce para venda de arte digital. Como desenvolvedora full-stack, fui responsável por implementar a área administrativa, utilizando PHP MVC com POO para gerenciar dados e Chart.js para representação visual. Desenvolvi recursos voltados ao usuário, como login, compra e gerenciamento de carrinho. Implementei criptografia de senhas e trabalhei com gatilhos MySQL, procedures e outros recursos do banco de dados.",
+    "workText4": "Plataforma de e-commerce para produtos de skincare. Atuei como desenvolvedora full-stack, adquirindo experiência prática com lógica em PHP e integração entre front-end e back-end. Trabalhei com MySQL e modelagem de banco de dados, explorando também o uso de AJAX para requisições dinâmicas e melhor experiência do usuário.",
+    "experience": "EXPERIÊNCIA",
+    "ex-title-1": "ESTAGIÁRIA DE HELP DESK",
+    "ex-data-1": "TECNOHUB, 05/2025 - atualmente",
+    "ex-text-1": "Prestei suporte a usuários por telefone, chat e acesso remoto. Diagnosei e resolvi problemas de software e sistema operacional Windows, realizei formatações, backups e restauração de dados. Configurei redes, impressoras, contas de e-mail e diversos aplicativos. Auxiliei na documentação de procedimentos e no gerenciamento de chamados de suporte.",
+    "future": "em breve...",
+    "education": "EDUCAÇÃO",
+    "ed-text-1": "Formação em criação e manutenção de sites, incluindo raciocínio lógico, programação, design de interface, bancos de dados e funcionalidades interativas. Conhecimento em marketing digital, experiência do usuário e empreendedorismo aplicado à web.",
+    "ed-text-2": "Formação em desenvolvimento de software para plataformas Web, Desktop, Mobile, IoT e Nuvem, aplicando conceitos de Segurança da Informação e Inteligência Artificial. Habilidade em metodologias ágeis, controle de versão, integração e entrega contínuas, com foco em soluções de alta qualidade. Desenvolvimento de inovação e conduta profissional socialmente responsável.",
+    "letstalk": "VAMOS CONVERSAR!",
+    "madeby": "feito por stela ☆"
 }

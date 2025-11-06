@@ -1,6 +1,24 @@
 {
 
-    "title": "Olá"
-
+    "title": "HELLO, I'M STELA.",
+    "menu1": "WORK",
+    "menu2": "EDUCATION",
+    "menu3": "CV",
+    "text-about": "I'm a beginner developer passionate about solving problems with technology. I aim to collaborate with teams to improve existing solutions and create new ones. When I’m not coding, you’ll find me enjoying coffee, hanging with my cats, and  tackling new challenges. Let’s connect and explore what I can bring to the table!",
+    "skills": "SKILLS",
+    "workText1": "E-commerce platform tailored for sweet shops, enabling them to sell their products online. Responsible for back-end development, I implemented a RESTful API using Express.js, featuring JWT authentication, middleware for request handling, password hashing, and image storage via Cloudinary. Utilized Insomnia to test API endpoints and ensure robust functionality.",
+    "workText2": "Developed a basic API using PHP and OOP principles. Gained experience with routing, handling requests and responses, and implementing basic request processing. Also worked with JWT authentication for secure access control.",
+    "workText3": "E-commerce platform for selling digital art. As a full-stack developer, I was responsible for implementing the administration area, using PHP MVC with OOP to manage data and Chart.js for visual data representation. Developed user-facing features including login, purchasing, and cart management. Implemented  password hashing for security and worked with MySQL triggers, stored procedures, and other database resources.",
+    "workText4": " E-commerce platform for skincare products. Acted as a full-stack developer, gaining hands-on experience with PHP logic  and front-end/back-end integration. Worked with MySQL and database modeling, while exploring AJAX for dynamic requests and improved user interactions.",
+    "experience": "EXPERIENCE",
+    "ex-title-1": "HELP DESK INTERN",
+    "ex-data-1": "TECNOHUB, 05/2025 - today",
+    "ex-text-1": " Provided support to users via phone, chat, and remote access. Diagnosed and resolved software and Windows OS issues, performed system formatting, data backup, and restoration. Configured networks, printers, email accounts, and various applications. Assisted in documenting procedures and managing support tickets.",
+    "future": "yet to come...",
+    "education": "EDUCATION",
+    "ed-text-1": "Trained in creating and maintaining websites, including logical reasoning, programming, user interface design, databases, and interactive functionalities. Knowledge of digital marketing, user experience, and entrepreneurship applied to the web.",
+    "ed-text-2": "Training in software development for Web, Desktop, Mobile, IoT, and Cloud platforms, applying Information Security and Artificial Intelligence concepts. Skilled in agile methodologies, version control, continuous integration, and delivery, focusing on high-quality solutions. Developed innovation, and socially responsible professional conduct.",
+    "letstalk": "LET'S TALK!",    
+    "madeby": "made by stela ☆"
 
 }
