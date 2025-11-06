@@ -5,18 +5,17 @@ document.addEventListener("DOMContentLoaded", function () {
     let ptDicionario = {};
     let enDicionario = {};
 
-    // Carrega os arquivos JSON
-    fetch("./pt.json")
+    
+    fetch("./translate/pt.json")
         .then(res => res.json())
         .then(data => ptDicionario = data)
         .catch(err => console.error("Erro ao carregar pt.json:", err));
 
-    fetch("./en.json")
+    fetch("./translate/en.json")
         .then(res => res.json())
         .then(data => enDicionario = data)
         .catch(err => console.error("Erro ao carregar en.json:", err));
 
-    // Função de tradução
     function traduzir(dicionario) {
         for (const id in dicionario) {
             const el = document.getElementById(id);
