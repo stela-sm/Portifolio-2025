@@ -390,6 +390,39 @@ font-size: calc(16px + 0.5vw);
   margin-top: 40px;
 }
 
+
+
+.whyme-deck {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  gap: 1rem;
+  border: none !important;
+  margin-top: 30px;
+}
+
+
+.whyme-card{
+  border: 3px var(--gray) solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 10px 20px;
+  
+  border-radius: 15px;
+}
+
+@media (max-width: 768px) {
+  .whyme-deck {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+}
+
+
+
 @media (max-width: 768px) {
   .about {
     flex-direction: column;
