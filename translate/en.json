@@ -6,6 +6,7 @@
     "menu3": "CV",
     "text-about": "I'm a beginner developer passionate about solving problems with technology. I aim to collaborate with teams to improve existing solutions and create new ones. When I’m not coding, you’ll find me enjoying coffee, hanging with my cats, and  tackling new challenges. Let’s connect and explore what I can bring to the table!",
     "skills": "SKILLS",
+    "work":"WORK",
     "workText1": "E-commerce platform tailored for sweet shops, enabling them to sell their products online. Responsible for back-end development, I implemented a RESTful API using Express.js, featuring JWT authentication, middleware for request handling, password hashing, and image storage via Cloudinary. Utilized Insomnia to test API endpoints and ensure robust functionality.",
     "workText2": "Developed a basic API using PHP and OOP principles. Gained experience with routing, handling requests and responses, and implementing basic request processing. Also worked with JWT authentication for secure access control.",
     "workText3": "E-commerce platform for selling digital art. As a full-stack developer, I was responsible for implementing the administration area, using PHP MVC with OOP to manage data and Chart.js for visual data representation. Developed user-facing features including login, purchasing, and cart management. Implemented  password hashing for security and worked with MySQL triggers, stored procedures, and other database resources.",
