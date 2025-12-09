@@ -5,6 +5,7 @@
     "menu3": "CV",
     "text-about": "Sou uma desenvolvedora iniciante apaixonada por resolver problemas com tecnologia. Meu objetivo é colaborar com equipes para aprimorar soluções existentes e criar novas. Quando não estou programando, você vai me encontrar tomando um café, brincando com meus gatos e enfrentando novos desafios. Vamos conversar e descobrir o que posso agregar!",
     "skills": "HABILIDADES",
+    "work": "PROJETOS",
     "workText1": "Plataforma de e-commerce voltada para lojas de doces, permitindo que vendam seus produtos online. Responsável pelo desenvolvimento do back-end, implementei uma API RESTful usando Express.js, com autenticação JWT, middleware para tratamento de requisições, criptografia de senhas e armazenamento de imagens via Cloudinary. Utilizei o Insomnia para testar os endpoints da API e garantir uma funcionalidade robusta.",
     "workText2": "Desenvolvi uma API básica usando PHP e princípios de POO. Adquiri experiência com rotas, tratamento de requisições e respostas, e implementação de autenticação JWT para controle de acesso seguro.",
     "workText3": "Plataforma de e-commerce para venda de arte digital. Como desenvolvedora full-stack, fui responsável por implementar a área administrativa, utilizando PHP MVC com POO para gerenciar dados e Chart.js para representação visual. Desenvolvi recursos voltados ao usuário, como login, compra e gerenciamento de carrinho. Implementei criptografia de senhas e trabalhei com gatilhos MySQL, procedures e outros recursos do banco de dados.",
