@@ -30,6 +30,15 @@ background: #DDC9FF;
 background: linear-gradient(180deg, rgba(221, 201, 255, 1) 35%, rgba(208, 245, 229, 1) 98%);
 
 }
+.fade-text {
+  transition: opacity 0.3s ease;
+  opacity: 1;
+}
+
+.fade-text.hidden {
+  opacity: 0;
+}
+
 .menubar{
     background-color: var(--gray);
     border-radius: 25px;
@@ -63,10 +72,12 @@ background: linear-gradient(180deg, rgba(221, 201, 255, 1) 35%, rgba(208, 245, 2
 .logo > .language{
 font-size: calc(16px + 0.5vw);
    color: var(--white) !important;
+  transition: 0.2s ease;
    cursor: pointer;
 }
 
 .language > .disabled{
+  transition: 0.2s ease;
     opacity: 0.5;
 }
 
@@ -396,7 +407,7 @@ font-size: calc(16px + 0.5vw);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
-  gap: 1rem;
+  gap: 4rem;
   border: none !important;
   margin-top: 30px;
 }
@@ -409,9 +420,25 @@ font-size: calc(16px + 0.5vw);
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  padding: 10px 20px;
-  
+  padding: 8%;
+  gap:4px;
+  min-height: calc(400px + 1.5vh);
   border-radius: 15px;
+}
+
+.whyme-card .title{
+  font-size: calc(10px + 0.8vw);
+  font-weight: 700;
+}
+
+.whyme-card svg{
+  width:  calc(100px + 2vh);
+  stroke: 1;
+}
+
+.whyme-card .text{
+  font-weight: 300;
+  font-size: 1rem;
 }
 
 @media (max-width: 768px) {

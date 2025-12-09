@@ -1,43 +1,56 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const pt = document.getElementById("pt");
-    const en = document.getElementById("en");
+document.addEventListener("DOMContentLoaded", () => {
+  const pt = document.getElementById("pt");
+  const en = document.getElementById("en");
 
-    let ptDicionario = {};
-    let enDicionario = {};
+  let ptDicionario = {};
+  let enDicionario = {};
 
-    
-    fetch("./translate/pt.json")
-        .then(res => res.json())
-        .then(data => ptDicionario = data)
-        .catch(err => console.error("Erro ao carregar pt.json:", err));
+  // Carrega JSON genérico
+  function carregarDicionario(caminho, destino) {
+    return fetch(caminho)
+      .then((res) => res.json())
+      .then((data) => Object.assign(destino, data))
+      .catch((err) => console.error(`Erro ao carregar ${caminho}:`, err));
+  }
 
-    fetch("./translate/en.json")
-        .then(res => res.json())
-        .then(data => enDicionario = data)
-        .catch(err => console.error("Erro ao carregar en.json:", err));
+  // Anima e troca texto
+  function fadeSwap(element, newText) {
+    element.classList.add("fade-text");
 
-    function traduzir(dicionario) {
-        for (const id in dicionario) {
-            const el = document.getElementById(id);
-            if (el) {
-                el.textContent = dicionario[id];
-            }
-        }
+    element.classList.add("hidden");
+
+    setTimeout(() => {
+      element.textContent = newText;
+      element.classList.remove("hidden");
+    }, 300);
+  }
+
+  // Tradução com fade
+  function traduzir(dicionario) {
+    for (const id in dicionario) {
+      const el = document.getElementById(id);
+      if (el) fadeSwap(el, dicionario[id]);
     }
+  }
 
-    // Clique para português
-    pt.addEventListener("click", () => {
-        pt.classList.add("active");
-        en.classList.remove("active");
+  // Alterna classe de seleção
+  function toggleLanguageSelection() {
+    pt.classList.toggle("disabled");
+    en.classList.toggle("disabled");
+  }
 
-        traduzir(ptDicionario);
-    });
+  // Eventos
+  pt.addEventListener("click", () => {
+    toggleLanguageSelection();
+    traduzir(ptDicionario);
+  });
 
-    // Clique para inglês
-    en.addEventListener("click", () => {
-        en.classList.add("active");
-        pt.classList.remove("active");
+  en.addEventListener("click", () => {
+    toggleLanguageSelection();
+    traduzir(enDicionario);
+  });
 
-        traduzir(enDicionario);
-    });
+  // Carrega os JSONs
+  carregarDicionario("./translate/pt.json", ptDicionario);
+  carregarDicionario("./translate/en.json", enDicionario);
 });
